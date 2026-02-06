@@ -14,3 +14,4 @@ export const x402Payments = pgTable("x402_payments", {
   createdAt: timestamp("created_at").defaultNow().notNull(),
   settledAt: timestamp("settled_at"),
 });
+B
